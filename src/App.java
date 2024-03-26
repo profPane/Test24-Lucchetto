@@ -10,7 +10,7 @@ public class App {
         Lucchetto lucchetto = new Lucchetto(combinazione);
 
         // Prove di apertura e chiusura
-        System.out.println("Lucchetto Aperto: " + lucchetto.seiAperto());
+        System.out.println("Lucchetto coperto: " + lucchetto.seiAperto());
         System.out.println("Lucchetto chiuso: " + lucchetto.seiChiuso());
         System.out.println("Prova di apertura con chiave errata...");
         lucchetto.apri(new int[]{1, 2, 3});
