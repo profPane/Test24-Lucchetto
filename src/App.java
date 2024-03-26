@@ -1,4 +1,5 @@
 public class App {
+
     public static void main(String[] args) {
         // Creazione del lucchetto con combinazione scelta dall'utente
         int[] combinazione = new int[3];
@@ -9,7 +10,7 @@ public class App {
         Lucchetto lucchetto = new Lucchetto(combinazione);
 
         // Prove di apertura e chiusura
-        System.out.println("Lucchetto aperto: " + lucchetto.seiAperto());
+        System.out.println("Lucchetto Aperto: " + lucchetto.seiAperto());
         System.out.println("Lucchetto chiuso: " + lucchetto.seiChiuso());
         System.out.println("Prova di apertura con chiave errata...");
         lucchetto.apri(new int[]{1, 2, 3});
